@@ -586,7 +586,6 @@ const experience = {
         //   color: "#800000",
         // },
       ],
-      
     },
     {
       title: "Volunteerships",
@@ -667,115 +666,174 @@ const contactPageData = {
 const projects = {
   data: [
     // project
-    // {
-    //   name: "CineScope",
-    //   url: "https://github.com/Hrishi1999/CineScope",
-    //   description: "An IMDB-like application.",
-    //   languages: [
-    //     {
-    //       name: "React.js",
-    //       iconifyClass: "logos-react",
-    //     },
-    //     {
-    //       name: "TypeScript",
-    //       iconifyClass: "devicon-typescript",
-    //     },
-    //     {
-    //       name: "Node.js",
-    //       iconifyClass: "devicon-nodejs",
-    //     },
-    //     {
-    //       name: "Express.js",
-    //       iconifyClass: "devicon-express",
-    //     },
-    //     {
-    //       name: "MongoDB",
-    //       iconifyClass: "logos-mongodb",
-    //     },
-    //   ],
-    // },
-    // {
-    //   name: "Journalify",
-    //   url: "https://play.google.com/store/apps/details?id=com.picle.journalify",
-    //   description:
-    //     "You personal journaling companion, goals & daily challenges! About 5k+ downloads on Play Store.",
-    //   languages: [
-    //     {
-    //       name: "Flutter",
-    //       iconifyClass: "logos-flutter",
-    //     },
-    //     {
-    //       name: "Firebase",
-    //       iconifyClass: "logos-firebase",
-    //     },
-    //   ],
-    // },
-    // {
-    //   name: "RecipesAPI",
-    //   url: "https://rapidapi.com/Hrishi1999/api/recipesapi2",
-    //   description: "Get recipes for hundreds and thousands of dishes",
-    //   languages: [
-    //     {
-    //       name: "NodeJS",
-    //       iconifyClass: "logos-nodejs",
-    //     },
-    //     {
-    //       name: "JavaScript",
-    //       iconifyClass: "logos-javascript",
-    //     },
-    //   ],
-    // },
-    // {
-    //   name: "opPortfolio",
-    //   url: "https://github.com/Hrishi1999/opPortfolio",
-    //   description: "(This) A clean and full customizable portfolio template.",
-    //   languages: [
-    //     {
-    //       name: "ReactJS",
-    //       iconifyClass: "logos-react",
-    //     },
-    //   ],
-    // },
-    // {
-    //   name: "Cab Security System",
-    //   url: " ",
-    //   description:
-    //     "Driver drowsiness detection, profanity detection, violence detection, SMS alerts, cab driver tracking.",
-    //   languages: [
-    //     {
-    //       name: "Python",
-    //       iconifyClass: "logos-python",
-    //     },
-    //     {
-    //       name: "Tensorflow",
-    //       iconifyClass: "logos-tensorflow",
-    //     },
-    //     {
-    //       name: "OpenCV",
-    //       iconifyClass: "logos-opencv",
-    //     },
-    //   ],
-    // },
-    // {
-    //   name: "Lensinator",
-    //   url: " ",
-    //   description:
-    //     "Published on Play Store back in 2017, crossed 55K downloads. Performed object detection, image captioning, OCR, handwritten OCR, barcode and QR code scanning with product information.",
-    //   languages: [
-    //     {
-    //       name: "JavaScript",
-    //       iconifyClass: "logos-java",
-    //     },
-    //     {
-    //       name: "Python",
-    //       iconifyClass: "logos-python",
-    //     },
-    //     {
-    //       name: "Firebase",
-    //       iconifyClass: "logos-firebase",
-    //     },
-    //   ],
-    // },
+    {
+      name: "Ethio Medical DataWarehouse",
+      url: "https://github.com/Getachew0557/EthioMedDataWarehouse.git",
+      description:
+        "A medical data warehouse system that integrates data from various healthcare sources to facilitate data analysis, decision-making, and insights generation. ",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+
+        {
+          name: "TensorFlow",
+          iconifyClass: "logos-tensorflow",
+        },
+        {
+          name: "YOLO",
+          iconifyClass: "logos-yolo", // Placeholder: No official YOLO icon in Iconify (use a relevant icon)
+        },
+        {
+          name: "Telegram",
+          iconifyClass: "logos-telegram", // Placeholder: No official Telegram icon in Iconify (use a relevant icon)
+        },
+        {
+          name: "FastAPI",
+          iconifyClass: "logos-fastapi",
+        },
+        {
+          name: "Flask",
+          iconifyClass: "logos-flask",
+        },
+        {
+          name: "PostgreSQL",
+          iconifyClass: "logos-postgresql",
+        },
+        {
+          name: "Docker",
+          iconifyClass: "logos-docker",
+        },
+      ],
+    },
+
+    {
+      name: "Fraud Detection E-commerce Banking",
+      url:
+        "https://github.com/Getachew0557/fraud-detection-ecommerce-banking.git",
+      description:
+        "A comprehensive fraud detection system for e-commerce and banking platforms.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Flask",
+          iconifyClass: "logos-flask",
+        },
+        {
+          name: "FastAPI",
+          iconifyClass: "logos-fastapi",
+        },
+        {
+          name: "React.js",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "TensorFlow",
+          iconifyClass: "logos-tensorflow",
+        },
+        {
+          name: "Jupyter Notebook",
+          iconifyClass: "logos-jupyter",
+        },
+      ],
+    },
+
+    {
+      name: "Malware Detection System",
+      url:
+        "https://github.com/Getachew0557/Machine-learning-for-Malware-Detection_and-classfication-systemystem.git",
+      description: "Detect malware for windows excutable file",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "Tensorflow",
+          iconifyClass: "logos-tensorflow",
+        },
+      ],
+    },
+    {
+      name: "Portfolio",
+      url: "https://github.com/Getachew0557/getch-portfolio.git",
+      description: "This contain a full portfolio.",
+      languages: [
+        {
+          name: "ReactJS",
+          iconifyClass: "logos-react",
+        },
+      ],
+    },
+
+    {
+      name: "LLM Legal Document Assistant",
+      url: "https://github.com/Getachew0557/LLM-legal-document-assistant.git",
+      description:
+        "A Retrieval-Augmented Generation (RAG) application for querying legal documents.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "TensorFlow",
+          iconifyClass: "logos-tensorflow",
+        },
+        {
+          name: "PostgreSQL",
+          iconifyClass: "logos-postgresql",
+        },
+        {
+          name: "Elasticsearch",
+          iconifyClass: "logos-elasticsearch",
+        },
+        {
+          name: "LLM",
+          iconifyClass: "logos-llm", // Placeholder, no official LLM icon in Iconify
+        },
+        {
+          name: "Airflow",
+          iconifyClass: "logos-airflow",
+        },
+        {
+          name: "Grafana",
+          iconifyClass: "logos-grafana",
+        },
+        {
+          name: "Streamlit",
+          iconifyClass: "logos-streamlit",
+        },
+      ],
+    },
+
+    {
+      name: "Portfolio Management Optimization TimeSeries Analysis",
+      url:
+        " https://github.com/Getachew0557/PortfolioManagementOptimizationTimeSeries-.git",
+      description:
+        "Time Series Forecasting for Portfolio Management Optimization using ARIMA, SARIMA, and LSTM models.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+
+        {
+          name: "Tensorflow",
+          iconifyClass: "logos-tensorflow",
+        },
+        {
+          name: "Docker",
+          iconifyClass: "logos-docker",
+        },
+      ],
+    },
+
     // {
     //   name: "Doorbell.io",
     //   url: "https://github.com/Hrishi1999/Doorbell.io",
