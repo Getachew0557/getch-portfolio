@@ -38,8 +38,7 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using ReactJS and Angular",
-        "⚡ Developing mobile applications using Flutter and native Android",
+        "⚡ Building responsive website front end using ReactJS",
         "⚡ Backend development using NodeJS, ExpressJS and Flask",
       ],
       softwareSkills: [
@@ -65,56 +64,56 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
-          },
-        },
+        // {
+        //   skillName: "PHP",
+        //   fontAwesomeClassname: "simple-icons:php",
+        //   style: {
+        //     color: "#7377AD",
+        //   },
+        // },
         {
           skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
+          fontAwesomeClassname: "simple-icons:oracle",
           style: {
             color: "#f89820",
           },
         },
-        {
-          skillName: "Kotlin",
-          fontAwesomeClassname: "simple-icons:kotlin",
-          style: {
-            color: "#5c79df",
-          },
-        },
-        {
-          skillName: "Dart",
-          fontAwesomeClassname: "simple-icons:dart",
-          style: {
-            color: "#29B0EE",
-          },
-        },
-        {
-          skillName: "Go",
-          fontAwesomeClassname: "simple-icons:go",
-          style: {
-            color: "#00A7D0",
-          },
-        },
-        {
-          skillName: "Visual Basic",
-          fontAwesomeClassname: "simple-icons:dot-net",
-          style: {
-            color: "#029FCE",
-          },
-        },
-        {
-          skillName: "C#",
-          fontAwesomeClassname: "simple-icons:csharp",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
+        // {
+        //   skillName: "Kotlin",
+        //   fontAwesomeClassname: "simple-icons:kotlin",
+        //   style: {
+        //     color: "#5c79df",
+        //   },
+        // },
+        // {
+        //   skillName: "Dart",
+        //   fontAwesomeClassname: "simple-icons:dart",
+        //   style: {
+        //     color: "#29B0EE",
+        //   },
+        // },
+        // {
+        //   skillName: "Go",
+        //   fontAwesomeClassname: "simple-icons:go",
+        //   style: {
+        //     color: "#00A7D0",
+        //   },
+        // },
+        // {
+        //   skillName: "Visual Basic",
+        //   fontAwesomeClassname: "simple-icons:dot-net",
+        //   style: {
+        //     color: "#029FCE",
+        //   },
+        // },
+        // {
+        //   skillName: "C#",
+        //   fontAwesomeClassname: "simple-icons:csharp",
+        //   style: {
+        //     backgroundColor: "transparent",
+        //     color: "#3776AB",
+        //   },
+        // },
         {
           skillName: "C",
           fontAwesomeClassname: "simple-icons:c",
@@ -149,7 +148,7 @@ const skills = {
           skillName: "NodeJS",
           fontAwesomeClassname: "simple-icons:node-dot-js",
           style: {
-            color: "#339933",
+            color: "#8CC84B",
           },
         },
         {
@@ -159,23 +158,23 @@ const skills = {
             color: "#439743",
           },
         },
+        // {
+        //   skillName: "GraphQL",
+        //   fontAwesomeClassname: "simple-icons:graphql",
+        //   style: {
+        //     color: "#DE33A6",
+        //   },
+        // },
+        // {
+        //   skillName: "Android App Development",
+        //   fontAwesomeClassname: "simple-icons:android",
+        //   style: {
+        //     color: "#3DDC84",
+        //   },
+        // },
         {
-          skillName: "GraphQL",
-          fontAwesomeClassname: "simple-icons:graphql",
-          style: {
-            color: "#DE33A6",
-          },
-        },
-        {
-          skillName: "Android App Development",
-          fontAwesomeClassname: "simple-icons:android",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
           style: {
             color: "#02569B",
           },
@@ -188,13 +187,13 @@ const skills = {
           },
         },
 
-        {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#207297",
-          },
-        },
+        // {
+        //   skillName: "Wordpress",
+        //   fontAwesomeClassname: "simple-icons:wordpress",
+        //   style: {
+        //     color: "#207297",
+        //   },
+        // },
 
         {
           skillName: "Git",
@@ -210,19 +209,18 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Certified AWS Developer Associate and Cloud Practioner",
         "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing web apps on GCP and AWS",
+        "⚡ Experience hosting and managing web apps",
         "⚡ Deploying deep learning models on cloud to use on mobile devices",
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
+        // {
+        //   skillName: "GCP",
+        //   fontAwesomeClassname: "simple-icons:googlecloud",
+        //   style: {
+        //     color: "#4285F4",
+        //   },
+        // },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
@@ -271,8 +269,9 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
+        "⚡ Expertise in Machine Learning and Generative AI",
         "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Certifications by deeplearning.ai and Stanford Online",
+        "⚡ Certifications by 10 Academy, IBM and Stanford Online",
         "⚡ Experience with 10+ Projects",
       ],
       softwareSkills: [
@@ -331,13 +330,14 @@ const degrees = {
         "⚡ Gained in-depth knowledge in advanced fields such as Machine Learning, Image Processing, Cybersecurity, High-Performance Computing, Distributed Systems, and Parallel Computing.",
         "⚡ Conducted research and implemented projects focused on Customer Churn Prediction and Brain Tumor Detection using machine learning and data analysis techniques.",
         "⚡ Completed a Master's thesis titled 'Road Traffic Accident Severity Classification Using Machine Learning Approaches,' receiving a 'Very Good' grade for the research and findings.",
-        "⚡ Developed skills in handling complex data structures, optimizing computational models, and deploying solutions for real-world problems in engineering and data science."
+        "⚡ Developed skills in handling complex data structures, optimizing computational models, and deploying solutions for real-world problems in engineering and data science.",
       ],
       website_link: "https://www.aastu.edu.et/",
     },
     {
       title: "Addis Ababa Science and Technology University",
-      subtitle: "Bachillors Degree in Electrical Engineering (Computer Engineering Specialization)",
+      subtitle:
+        "Bachillors Degree in Electrical Engineering (Computer Engineering Specialization)",
       logo_path: "aastu.jpg",
       alt_name: "SETI",
       duration: "2017 - 2022",
@@ -345,8 +345,7 @@ const degrees = {
         "⚡ Studied key areas in computer science and engineering, including Object-Oriented Programming, Java, Python, Data Structures, DBMS, C++, Computer Networking, Embedded Systems, Microprocessors, and Interfacing.",
         "⚡ Developed strong technical foundations in both hardware and software engineering, with a focus on computational systems and networking.",
         "⚡ Completed a Bachelor's thesis project titled 'Computer Vision-Based Authentication and Employee Monitoring System,' which earned an 'Excellent' grade.",
-        "⚡ Published a journal article on the thesis topic in the International Journal of Innovative Science and Research Technology (IJISRT). You can view the paper here: [Computer Vision-Based Authentication and Employee Monitoring System](https://ijisrt.com/computer-vision-based-authentication-and-employee-monitoring-system)."
-    
+        "⚡ Published a journal article on the thesis topic in the International Journal of Innovative Science and Research Technology (IJISRT). You can view the paper here: [Computer Vision-Based Authentication and Employee Monitoring System](https://ijisrt.com/computer-vision-based-authentication-and-employee-monitoring-system).",
       ],
       website_link: "https://www.aastu.edu.et/",
     },
@@ -361,7 +360,8 @@ const degrees = {
         "💡 Gained hands-on experience in the basics of Machine Learning, including Data Analysis, Visualization, and Machine Learning workflows.",
         "💡 Learned about version control and management tools like MLflow and DVC, along with the integration of Docker for deployment.",
         "💡 Explored advanced topics such as Natural Language Processing (NLP), Large Language Models (LLM), and Telegram scraping for data collection.",
-        "💡 Worked on multiple classification and regression problems, honing practical skills in building and deploying machine learning models."
+        "💡 Worked on multiple classification and regression problems, honing practical skills in building and deploying machine learning models.",
+        "💡 Gained expertise in Generative AI, including deep learning models, GANs, and AI-driven content generation.",
       ],
       website_link: "https://10academy.org/",
     },
@@ -400,7 +400,8 @@ const certifications = {
       title: "Computer Networking",
       subtitle: "11/21/2021",
       logo_path: "cisco.jpg",
-      certificate_link: "https://www.credly.com/badges/70802195-a2dd-42f8-a156-8236609378d3",
+      certificate_link:
+        "https://www.credly.com/badges/70802195-a2dd-42f8-a156-8236609378d3",
       alt_name: "Google",
       color_code: "#1e70c1",
     },
@@ -408,7 +409,8 @@ const certifications = {
       title: "Introduction to Packet Tracer",
       subtitle: "8/12/2021",
       logo_path: "cisco.jpg",
-      certificate_link: "https://www.credly.com/badges/22e397af-5a27-4b78-83f1-6924107e3f59",
+      certificate_link:
+        "https://www.credly.com/badges/22e397af-5a27-4b78-83f1-6924107e3f59",
       alt_name: "Google",
       color_code: "#ffbfae",
     },
@@ -416,7 +418,8 @@ const certifications = {
       title: "Artificial Intelligence Intro",
       subtitle: "IBM ",
       logo_path: "IBM.png",
-      certificate_link: "https://www.credly.com/badges/3ac35dc1-8fd0-4a2f-9fed-0298982a7c30",
+      certificate_link:
+        "https://www.credly.com/badges/3ac35dc1-8fd0-4a2f-9fed-0298982a7c30",
       alt_name: "Google",
       color_code: "#b190b0",
     },
@@ -449,7 +452,8 @@ const certifications = {
     },
     {
       title: "Author Certification",
-      subtitle: " International Journal of Innovative Science and Research Technology (IJISRT)",
+      subtitle:
+        " International Journal of Innovative Science and Research Technology (IJISRT)",
       logo_path: "author.png",
       certificate_link:
         "https://drive.google.com/file/d/16vnw45yxywnXsJL9etgyI2TA0jsztaTs/view?usp=sharing",
@@ -469,8 +473,7 @@ const certifications = {
       title: "Neural Networks and Deep Learning",
       subtitle: "deeplearning.ai",
       logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "",
+      certificate_link: "",
       alt_name: "Google",
       color_code: "#7A7A7A",
     },
@@ -532,7 +535,7 @@ const experience = {
           duration: "December 2022 - March 2023",
           location: "Addis Ababa, Ethiopia",
           description:
-              "Developed a Voice Guidance application, assisted clients with software troubleshooting, and conducted training sessions on new software features.",
+            "Developed a Voice Guidance application, assisted clients with software troubleshooting, and conducted training sessions on new software features.",
           color: "#2962FF",
         },
       ],
@@ -662,7 +665,7 @@ const contactPageData = {
 
 const projects = {
   data: [
-        // project
+    // project
     // {
     //   name: "CineScope",
     //   url: "https://github.com/Hrishi1999/CineScope",
