@@ -31,4 +31,6 @@
 
 I have used Netlify to host my portfolio. If you want to use GitHub Pages, just run `npm run build` and publish all the files in the `/build` folder to your repository.
 
+- Deploy it on Vercel
+
 
