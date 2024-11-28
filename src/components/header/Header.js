@@ -91,13 +91,24 @@ function Header(props) {
             </li>
             <li>
               <NavLink
+                className="about"
+                to="/about"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.text }}
+              >
+                About
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
                 className="ec"
                 to="/education"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Education and Certifications
+                Education
               </NavLink>
             </li>
             <li>
@@ -130,21 +141,19 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Contact and Resume
+                Contact
               </NavLink>
             </li>
             <li>
-              <a
-                className="cr"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://play.google.com/store/apps/details?id=com.picle.journalify"
+              <NavLink
+                className="blog"
+                to="/blog"
                 tag={Link}
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                {/* Journalify */}
-              </a>
+                Blog
+              </NavLink>
             </li>
             <button {...styles} onClick={changeTheme}>
               {icon}
